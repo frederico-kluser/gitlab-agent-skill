@@ -136,7 +136,7 @@ O que escreve (âmbito local ou global):
 
 Nesta máquina, o global para `gitlab.com` é o `git-credential-guard` (credential-store
 com proteção contra `erase`), com a credencial `oauth2` usada nos repositórios do grupo
-`grupofleury`. Os repositórios ligados com `--repo` usam o token do glab.
+`<meu-grupo>`. Os repositórios ligados com `--repo` usam o token do glab.
 
 SSH em alternativa: `glab ssh-key add ~/.ssh/id_ed25519.pub -t "máquina"` e remote
 `git@gitlab.com:grupo/projeto.git` (testar com `ssh -T git@gitlab.com`).
